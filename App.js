@@ -19,7 +19,7 @@ function App() {
       <Route path="/register" element={<Register />} />
       <Route path="/userprofile" element={<PrivateRoute> <UserProfile /> </PrivateRoute> }
       />
-      {/ Añade aquí más rutas según sea necesario /}
+      {/* Añade aquí más rutas según sea necesario */}
       </Routes>
       </div>
       </Router>
