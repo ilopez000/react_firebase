@@ -5,14 +5,14 @@ import Home from './Home';
 import Login from './Login';
 import Register from './Register';
 import UserProfile from './UserProfile';
-import PrivateRoute from './PrivateRoute'; // Asegúrate de tener este componente
+//import PrivateRoute from './PrivateRoute'; 
 
 function App() {
 return (
 <AuthProvider>
 <Router>
 <div>
-{/* Aquí puedes colocar tu Navbar si tienes uno /}
+{/* Aquí puedes colocar tu Navbar si tienes uno */}
 <Routes>
 <Route exact path="/" element={<Home />} />
 <Route path="/login" element={<Login />} />
